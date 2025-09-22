@@ -1,0 +1,14 @@
+id: 84d977ca-e916-4b0b-9a95-8da94ed9fc48
+pipeline_type: WORKSPACE
+name: citibike_etl_pipeline
+libraries:
+  - glob:
+      include: /Workspace/Users/windows-pk@hotmail.com/citibike_etl_pipeline/transformations/**
+schema: 01_bronze
+continuous: false
+development: "${var.flag_dev}"
+photon: false
+channel: CURRENT
+catalog: "${var.catalog}"
+serverless: true
+root_path: /Workspace/Users/windows-pk@hotmail.com/citibike_etl_pipeline

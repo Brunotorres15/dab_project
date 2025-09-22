@@ -1,0 +1,11 @@
+{
+  "data_security_mode": "DATA_SECURITY_MODE_AUTO",
+  "cluster_name": "dabs_cluster",
+  "kind": "CLASSIC_PREVIEW",
+  "runtime_engine": "STANDARD",
+  "spark_version": "15.4.x-scala2.12",
+  "node_type_id": "Standard_D4s_v3",
+  "autotermination_minutes": 20,
+  "use_ml_runtime": false,
+  "is_single_node": true
+}
